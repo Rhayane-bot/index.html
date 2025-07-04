@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florescer Social - Quem Somos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family:  Arial, sans-serif; 
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; 
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Estilos do cabeçalho */
+        header {
+            background-color: #00d26a; 
+            color: white;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .logo {
+            font-size: 1.8em;
+            font-weight: 700;
+            text-decoration: none;
+            color: white;
+        }
+
+        .logo-area {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-box {
+      background-color: #0e9d60;
+      color: black;
+      padding: 8px 16px;
+      font-weight: bold;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+
+    .logo-text {
+      color: white;
+      font-weight: bold;
+    }
+
+        nav a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        }
+
+        nav a:hover {
+        text-decoration: underline;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #d4edda; 
+        }
+
+        /* Seção "Quem Somos" */
+        .quem-somos-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .quem-somos-section h1 {
+            text-align: center;
+            color: #28a745;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+
+        .quem-somos-content {
+            display: flex;
+            flex-direction: row; 
+            align-items: flex-start; 
+            gap: 30px; 
+            margin-bottom: 40px;
+        }
+
+        .quem-somos-text {
+            flex: 1; 
+            text-align: justify; 
+            padding-right: 15px; 
+        }
+
+        .quem-somos-image {
+            flex-shrink: 0; 
+            width: 350px; 
+            min-width: 280px; 
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start; 
+        }
+
+        .quem-somos-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        /* Seções abaixo (A Urgência, Tecnologia a Serviço) */
+        .section-text {
+            max-width: 900px;
+            margin: 30px auto; 
+            padding: 0 20px; 
+            text-align: justify; 
+        }
+
+        .section-text h2 {
+            text-align: center;
+            color: #28a745;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 15px 5%;
+            }
+
+            nav ul {
+                margin-top: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            nav ul li {
+                margin: 5px 10px;
+            }
+
+            .quem-somos-content {
+                flex-direction: column; 
+                align-items: center; 
+            }
+
+            .quem-somos-text {
+                padding-right: 0; 
+                padding-bottom: 20px; 
+            }
+
+            .quem-somos-image {
+                width: 80%; 
+            }
+
+            .quem-somos-section, .section-text {
+                margin: 20px auto;
+                padding: 15px;
+            }
+        }
+
+        footer {
+      background-color: #00d26a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a class="logo">Florescer Social</a>
+        <nav>
+            <ul>
+                <a href="home.html">Home</a>
+                <a href="quem_somos.html">Quem Somos</a>
+                <a href="doacoes.html">Doações</a>
+                <a href="contato.html">Contatos</a>
+                <a href="faq.html">FAQ</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="quem-somos-section">
+        <h1>Quem Somos</h1>
+        <div class="quem-somos-content">
+            <div class="quem-somos-text">
+                <p>Somos três estudantes de tecnologia, movidas pelo desejo de fazer a diferença e trazer um pouco 
+                    de luz para a complexa realidade das pessoas refugiadas. Com a crescente urgência dessa 
+                    questão global, percebemos a necessidade de utilizar nossas habilidades para criar uma ponte 
+                    entre aqueles que precisam de apoio e aqueles que desejam ajudar. Assim nasceu o Florescer Social,
+                    um projeto em formato de site dedicado a apoiar pessoas refugiadas que buscam abrigo no Brasil 
+                    e em países vizinhos.</p>
+            </div>
+            <div class="quem-somos-image">
+                <img src="IMAGENS/abraco_coletivo.jpg" alt="abraco_coletivo">
+            </div>
+        </div>
+    </div>
+
+    <div class="section-text">
+        <h2>A Urgência da Questão Refugiada</h2>
+        <p>O número de pessoas deslocadas à força em todo o mundo atinge patamares alarmantes. De acordo com o Alto 
+            Comissariado das Nações Unidas para Refugiados (ACNUR), ao final de 2023, mais de **117,3 milhões de 
+            pessoas estavam deslocadas à força globalmente**. Dessas, **43,5 milhões são refugiados, forçados a 
+            fugir de conflitos, perseguições, violações de direitos humanos e eventos que perturbam gravemente a 
+            ordem pública. A situação na América Latina também é preocupante, com um aumento significativo de pessoas
+             que buscam refúgio em países como o Brasil, que se tornou um importante destino para venezuelanos, 
+             haitianos e outros grupos que fogem de crises em suas nações de origem. No Brasil, por exemplo, o 
+             Comitê Nacional para os Refugiados (CONARE) registrou um aumento substancial no número de pedidos de 
+             refúgio nos últimos anos, refletindo a crescente busca por segurança e dignidade em nosso território.</p>
+    </div>
+
+    <div class="section-text">
+        <h2>FlorescSer Social: Tecnologia a Serviço da Solidariedade</h2>
+        <p>Diante desse cenário, nós, como estudantes de tecnologia, vimos uma oportunidade de usar nossas 
+            competências para amplificar a visibilidade dessa causa e facilitar a ajuda humanitária. O 
+            Floresser Social é mais do que um site; é uma plataforma pensada e desenvolvida para ser um ponto 
+            de encontro entre doadores e refugiados. Nosso objetivo principal é **centralizar informações e 
+            oportunidades de doação**, tornando o processo mais acessível e transparente. Em nosso site, os 
+            usuários podem encontrar diversas formas de contribuir: desde a doação de dinheiro, que permite a 
+            compra de itens essenciais e o suporte a projetos de integração, até a doação de roupas, alimentos, 
+            itens de higiene pessoal e até mesmo oportunidades de trabalho e moradia. Acreditamos que, ao simplificar 
+            o processo de doação e oferecer diferentes modalidades de apoio, podemos engajar um número maior de 
+            pessoas e organizações.</p>
+    </div>
+
+    <footer>
+        © 2025 Florescer Social — Todos os direitos reservados
+    </footer>
+    
+      <script>
+        const items = document.querySelectorAll('.faq-item');
+        items.forEach(item => {
+          item.addEventListener('click', () => {
+            item.classList.toggle('active');
+            const content = item.querySelector('.faq-content');
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+          });
+        });
+      </script>
+
+</body>
+</html>
